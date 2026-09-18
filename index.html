@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>woodwoodan | Kriya Kayu Solid & Furnitur Kustom Bernilai Seni</title>
+  <meta name="description" content="Katalog resmi kriya dan furnitur kayu jati solid serta kustom woodwoodan. Keindahan serat alami, pengerjaan presisi tangan, dan konsultasi cepat via WhatsApp." />
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="woodwoodan | Kriya Kayu Solid & Furnitur Kustom" />
+  <meta property="og:description" content="Katalog resmi kriya kayu solid dan furnitur pesanan kustom dengan konstruksi sambungan taji presisi." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/images/hero-craftsman.jpg" />
+
+  <!-- Google Fonts: Playfair Display + Plus Jakarta Sans + Caveat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/src/styles/main.css" />
+</head>
+<body>
+
+  <!-- Floating Sticky Header (design.md spec) -->
+  <div class="header-wrapper">
+    <header class="header-nav" role="banner">
+      <a href="#" class="logo-brand" aria-label="Beranda woodwoodan">
+        <span class="logo-icon">W</span>
+        woodwoodan
+      </a>
+
+      <nav aria-label="Navigasi Utama">
+        <ul class="nav-links-desktop">
+          <li><a href="#tentang" class="nav-link">Tentang</a></li>
+          <li><a href="#katalog" class="nav-link">Katalog</a></li>
+          <li><a href="#portofolio" class="nav-link">Portofolio</a></li>
+          <li><a href="#cara-pesan" class="nav-link">Cara Pesan</a></li>
+          <li><a href="#testimoni" class="nav-link">Testimoni</a></li>
+          <li><a href="#kontak" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a id="header-wa-cta" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" aria-label="Konsultasi langsung dengan pengrajin via WhatsApp">
+          Konsultasi Pengrajin
+        </a>
+        <button id="menu-toggle-btn" class="menu-toggle-btn" aria-label="Buka Menu Navigasi Mobile">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </header>
+  </div>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="drawer-backdrop" class="mobile-drawer-backdrop"></div>
+  <aside id="mobile-drawer" class="mobile-drawer" aria-label="Menu Mobile">
+    <div>
+      <div class="drawer-header">
+        <div class="logo-brand">
+          <span class="logo-icon">W</span>
+          woodwoodan
+        </div>
+        <button id="close-drawer-btn" class="btn btn-ghost" aria-label="Tutup Menu Mobile" style="padding: 4px 8px;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <ul class="drawer-nav-list">
+        <li><a href="#tentang" class="drawer-nav-link">Tentang & Filosofi</a></li>
+        <li><a href="#katalog" class="drawer-nav-link">Katalog Produk</a></li>
+        <li><a href="#portofolio" class="drawer-nav-link">Portofolio Pekerjaan</a></li>
+        <li><a href="#cara-pesan" class="drawer-nav-link">Alur Pemesanan</a></li>
+        <li><a href="#testimoni" class="drawer-nav-link">Ulasan Klien</a></li>
+        <li><a href="#kontak" class="drawer-nav-link">Lokasi & Kontak</a></li>
+      </ul>
+    </div>
+    <div>
+      <a href="https://wa.me/6285798267605" target="_blank" rel="noopener noreferrer" class="btn btn-accent" style="width: 100%; justify-content: center;" aria-label="Hubungi pengrajin langsung via WhatsApp">
+        Konsultasi via WhatsApp
+      </a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- 1. Hero Section -->
+    <section class="section hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1 class="hero-headline">Keindahan Serat Alami, Kriya Kayu Solid Penuh Presisi.</h1>
+          
+          <p class="hero-subheadline">
+            Furnitur kriya kayu solid pilihan yang memadukan filosofi sambungan tradisional dengan estetika minimalis modern Japandi untuk hunian dan ruang komersial Anda.
+          </p>
+
+          <div class="hero-cta-row">
+            <a href="#katalog" class="btn btn-primary">
+              Jelajahi Katalog
+            </a>
+            <a id="hero-custom-cta" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+              Konsultasi Desain Kustom
+            </a>
+          </div>
+
+          <div class="hero-trust-indicators">
+            <div class="trust-item">
+              <span class="trust-number">100%</span>
+              <span class="trust-label">Solid Hardwood Kiln-Dry</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-number">Food-Safe</span>
+              <span class="trust-label">Beeswax & Organic Oil</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-number">Joinery</span>
+              <span class="trust-label">Mortise & Tenon Presisi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual-card">
+          <img 
+            src="/images/hero-craftsman.jpg" 
+            alt="Suasana workshop kriya kayu solid dan pengerjaan tangan woodwoodan" 
+            class="hero-image"
+            width="800"
+            height="600"
+          />
+          <div class="hero-visual-caption">
+            <div>
+              <div class="caption-title">Woodcraft Atelier & Workshop</div>
+              <div class="caption-subtitle">Pengerjaan cermat dengan kayu jati tua pilihan</div>
+            </div>
+            <span class="badge badge-wood">Handmade</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. About & Brand Pillars Section -->
+    <section class="section" id="tentang" style="background-color: var(--color-card); border-top: 1px solid var(--color-sand-mist); border-bottom: 1px solid var(--color-sand-mist);">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Filosofi & Nilai Kriya</span>
+          <h2 class="section-title">Dedikasi Pada Keaslian Kayu Solid</h2>
+          <p class="section-description">
+            Kami percaya bahwa setiap batang kayu solid menyimpan cerita alur serat yang unik. Kami tidak menggunakan serbuk olahan atau partikel board, melainkan kayu utuh yang dikerjakan dengan presisi sambungan kriya tangan.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Solid Hardwood</h3>
+            <p class="pillar-desc">Menggunakan kayu jati Perhutani dan sungkai solid berkualitas tinggi yang telah melalui proses oven (kiln-dry) agar tahan lama dan stabil.</p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Food-Safe Finishing</h3>
+            <p class="pillar-desc">Pelapis ramah lingkungan berbasis beeswax alami dan water-based polyurethane rendah emisi yang aman bersentuhan dengan makanan.</p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="3" y1="9" x2="21" y2="9"></line>
+                <line x1="9" y1="21" x2="9" y2="9"></line>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Precision Wood Joinery</h3>
+            <p class="pillar-desc">Konstruksi sambungan taji (mortise & tenon) dan pasak kayu tradisional tanpa dominasi paku agar konstruksi tetap kokoh puluhan tahun.</p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 20h9"></path>
+                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Custom Tailored</h3>
+            <p class="pillar-desc">Fleksibilitas penuh dalam menyesuaikan dimensi panjang, lebar, tinggi, serta pilihan alur tepi (live edge atau straight edge) sesuai kebutuhan Anda.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Product Catalog Section -->
+    <section class="section" id="katalog">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Koleksi Terkurasi</span>
+          <h2 class="section-title">Katalog Produk Pilihan</h2>
+          <p class="section-description">
+            Koleksi karya kriya kayu solid yang telah kami buat sesuai pesanan klien. Setiap model dapat dipesan kembali dengan penyesuaian ukuran, pilihan kayu, dan detail finishing untuk ruangan Anda.
+          </p>
+        </div>
+
+        <!-- Filter Tabs (PRD FR-03.1) -->
+        <div class="catalog-controls" role="tablist" aria-label="Filter Kategori Produk">
+          <button type="button" class="filter-tab active" data-category="all" role="tab">Semua Produk</button>
+          <button type="button" class="filter-tab" data-category="furniture" role="tab">Meja & Kursi</button>
+          <button type="button" class="filter-tab" data-category="home-decor" role="tab">Dekorasi Ruang</button>
+          <button type="button" class="filter-tab" data-category="tableware" role="tab">Peralatan Meja</button>
+        </div>
+
+        <!-- Products Grid Container -->
+        <div id="products-grid" class="products-grid">
+          <!-- Rendered dynamically by main.js -->
+        </div>
+
+        <!-- Empty State (PRD FR-03.2 - Enhanced with UX Writing Principles) -->
+        <div id="catalog-empty-state" class="catalog-empty-state" role="status" aria-live="polite">
+          <div class="empty-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+            </svg>
+          </div>
+          <h3 style="font-size: 18px; margin-bottom: 8px; color: var(--color-charcoal); font-family: var(--font-display);">Koleksi Kategori Ini Sedang Diproduksi</h3>
+          <p style="font-size: 14px; line-height: 1.6; margin-bottom: 8px; color: var(--color-woodsmoke);">
+            Produk kayu solid pada kategori ini sedang dalam proses pengerjaan di workshop kami atau dibuat berdasarkan pesanan (<em>made-to-order</em>).
+          </p>
+          <p style="font-size: 14px; line-height: 1.6; color: var(--color-charcoal); font-weight: 500;">
+            Anda dapat mengajukan pesanan kustom sesuai kebutuhan ruangan Anda, atau kembali menjelajahi semua koleksi.
+          </p>
+          <div class="empty-state-actions">
+            <a id="empty-state-wa-btn" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-sm" aria-label="Konsultasikan pesanan kustom kategori ini lewat WhatsApp">
+              Pesan Kustom via WhatsApp
+            </a>
+            <button type="button" id="empty-state-reset-btn" class="btn btn-outline btn-sm" aria-label="Tampilkan kembali seluruh koleksi produk">
+              Lihat Semua Koleksi
+            </button>
+          </div>
+        </div>
+
+        <!-- Custom Order Banner (PRD FR-03.4) -->
+        <div class="custom-banner">
+          <div class="custom-banner-content">
+            <h3>Punya Ukuran atau Desain Kayu Impian Sendiri?</h3>
+            <p>Ceritakan kebutuhan hunian Anda. Tim pengrajin woodwoodan siap mewujudkan furnitur kayu solid kustom sesuai sketsa, foto referensi, atau denah ruangan Anda.</p>
+          </div>
+          <a id="banner-custom-cta" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary" aria-label="Mulai konsultasi desain kustom bersama tim pengrajin">
+            Konsultasi Desain Kustom
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Past Projects Showcase -->
+    <section class="section" id="portofolio" style="background-color: var(--color-card); border-top: 1px solid var(--color-sand-mist); border-bottom: 1px solid var(--color-sand-mist);">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Rekam Jejak Hasil Kerja</span>
+          <h2 class="section-title">Portofolio & Workshop Gallery</h2>
+          <p class="section-description">
+            Dokumentasi asli proyek kriya yang telah selesai dikerjakan untuk hunian residensial, villa, dan ruang komersial seperti kafe dan restoran.
+          </p>
+        </div>
+
+        <div class="portfolio-controls" role="tablist">
+          <button type="button" class="filter-tab active" data-category="all">Semua Proyek</button>
+          <button type="button" class="filter-tab" data-category="commercial">Komersial & Kafe</button>
+          <button type="button" class="filter-tab" data-category="residential">Hunian Residensial</button>
+        </div>
+
+        <div id="portfolio-grid" class="portfolio-grid">
+          <!-- Rendered dynamically by main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. How to Order Section -->
+    <section class="section" id="cara-pesan">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Alur Transparan</span>
+          <h2 class="section-title">Cara Pemesanan 4 Langkah</h2>
+          <p class="section-description">
+            Kami mengutamakan komunikasi personal tanpa keranjang belanja otomatis yang membingungkan. Setiap pesanan didiskusikan langsung dengan artisan kami.
+          </p>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-number-badge">1</div>
+            <h3 class="step-title">Pilih atau Ajukan Desain</h3>
+            <p class="step-desc">Pilih karya dari katalog kami atau kirimkan foto referensi serta estimasi ukuran ruangan yang Anda miliki.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number-badge">2</div>
+            <h3 class="step-title">Konsultasi & Estimasi Biaya</h3>
+            <p class="step-desc">Diskusikan serat kayu solid (Jati/Sungkai) dan tipe pelapis alami, lalu terima penawaran resmi yang transparan.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number-badge">3</div>
+            <h3 class="step-title">Produksi & Bukti Progres</h3>
+            <p class="step-desc">Artisan kami memproduksi pesanan secara cermat. Kami mengirimkan foto progres berkala langsung dari bengkel kerja.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number-badge">4</div>
+            <h3 class="step-title">Pengecekan Kualitas & Pengiriman</h3>
+            <p class="step-desc">Pengecekan akhir kekuatan sambungan kriya, pengemasan peti kayu aman, lalu diantar terpercaya ke alamat Anda.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Testimonials Section -->
+    <section class="section" id="testimoni" style="background-color: var(--color-card); border-top: 1px solid var(--color-sand-mist);">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Kepuasan Klien</span>
+          <h2 class="section-title">Apa Kata Mereka Tentang woodwoodan</h2>
+          <p class="section-description">
+            Ulasan autentik dari pemilik kafe, mitra arsitek interior, dan pemilik hunian yang mempercayakan perabot mereka kepada kami.
+          </p>
+        </div>
+
+        <div id="testimonials-grid" class="testimonials-grid">
+          <!-- Rendered dynamically by main.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 7. Footer & Workshop Contact -->
+  <footer class="footer" id="kontak">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>woodwoodan</h4>
+          <p>Atelier kriya kayu solid dan furnitur pesanan kustom. Mengedepankan serat alami, sambungan presisi tangan, dan estetika Japandi berkelas.</p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Workshop & Showroom</h5>
+          <ul>
+            <li style="color: #C2BBB3; font-size: 14px; margin-bottom: 6px; line-height: 1.5;">Jalan Sukajadi, Gg. Pamurdasan Kel No.75A</li>
+            <li style="color: #C2BBB3; font-size: 14px; margin-bottom: 6px; line-height: 1.5;">Cipedes, Kec. Sukajadi, Kota Bandung, Jawa Barat 40162</li>
+            <li style="color: #C2BBB3; font-size: 14px; margin-bottom: 12px;">Senin - Sabtu, 09.00 - 17.00 WIB</li>
+            <li>
+              <a href="https://maps.app.goo.gl/SMxCbX6YLMKZ2Bjv7" target="_blank" rel="noopener noreferrer" style="color: var(--color-amber-glow); font-weight: 500; display: inline-flex; align-items: center; gap: 4px;">
+                Buka di Google Maps
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Hubungi & Ikuti</h5>
+          <ul>
+            <li><a href="https://wa.me/6285798267605" target="_blank" rel="noopener noreferrer">WhatsApp: +62 857-9826-7605</a></li>
+            <li><a href="https://instagram.com/woodwoodan.id" target="_blank" rel="noopener noreferrer">Instagram: @woodwoodan.id</a></li>
+            <li><a href="https://tiktok.com/@woodwoodan.id" target="_blank" rel="noopener noreferrer">TikTok: @woodwoodan.id</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 woodwoodan. Seluruh hak cipta dilindungi undang-undang.</div>
+        <div>Garansi Konstruksi Sambungan Kayu Solid 1 Tahun.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Product Detail Modal (PRD FR-04 Deep Linked) -->
+  <div id="product-modal-backdrop" class="modal-backdrop" role="dialog" aria-modal="true" aria-label="Detail Produk">
+    <div class="modal-card">
+      <button id="modal-close-btn" class="modal-close-btn" aria-label="Tutup Pratinjau Produk">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div id="modal-content-container">
+        <!-- Rendered by main.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox Viewer Modal (PRD FR-06.3) -->
+  <div id="lightbox-backdrop" class="lightbox-backdrop" role="dialog" aria-modal="true" aria-label="Perbesaran Foto Proyek">
+    <div class="lightbox-content">
+      <button id="lightbox-close-btn" class="modal-close-btn" aria-label="Tutup Perbesaran Foto">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <img id="lightbox-img" src="" alt="" class="lightbox-image" />
+      <div class="lightbox-info">
+        <h3 id="lightbox-title"></h3>
+        <p id="lightbox-desc"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Smart Floating WhatsApp Button (PRD FR-09 - UX Writing Refined) -->
+  <a id="floating-wa-btn" href="#" target="_blank" rel="noopener noreferrer" class="floating-wa-btn" aria-label="Hubungi pengrajin woodwoodan via WhatsApp">
+    <span class="floating-wa-tooltip">Tanya pengrajin via WhatsApp</span>
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.17 8.17 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.216 8.216 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.59c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.78 2.72 4.31 3.81.6.26 1.07.42 1.44.53.61.19 1.16.17 1.6.1.49-.07 1.47-.6 1.68-1.18.21-.59.21-1.09.15-1.19-.06-.1-.23-.16-.48-.28z"/>
+    </svg>
+  </a>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

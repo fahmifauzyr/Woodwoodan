@@ -1,0 +1,162 @@
+[
+  {
+    "id": "prod-001",
+    "sku": "WWD-TBL-01",
+    "name": "Meja Kopi Jati Lekuk Natural",
+    "slug": "meja-kopi-jati-lekuk-natural",
+    "category": "furniture",
+    "is_featured": true,
+    "price_type": "starting_at",
+    "price_display": "Mulai dari Rp 1.450.000",
+    "price_raw": 1450000,
+    "short_description": "Meja kopi bundar dengan tepi serat alami (live edge) dan sambungan kaki taji tersembunyi.",
+    "full_description": "Dibuat dari kayu jati solid pilihan berusia tua yang telah melalui proses oven kiln-dry. Menampilkan keunikan alur serat alami tanpa banyak sambungan, dilapisi pelindung matte tahan tumpahan kopi dan air.",
+    "specifications": {
+      "wood_type": "Kayu Jati Solid (Perhutani Teak)",
+      "dimensions": "Diameter 60 cm x Tinggi 45 cm",
+      "finishing": "Natural Polyurethane Matte (Water-based, Rendah Emisi)",
+      "joinery_technique": "Mortise and Tenon (Taji Sambung)",
+      "care_instruction": "Bersihkan dengan lap mikrofiber setengah lembab. Hindari cairan kimia pembersih lantai."
+    },
+    "images": [
+      {
+        "url": "/images/products/meja-kopi-01-front.jpg",
+        "alt": "Tampak depan Meja Kopi Jati Lekuk Natural woodwoodan"
+      },
+      {
+        "url": "/images/products/meja-kopi-01-grain.jpg",
+        "alt": "Detail sambungan kriya dan serat kayu jati solid"
+      }
+    ]
+  },
+  {
+    "id": "prod-002",
+    "sku": "WWD-TBL-02",
+    "name": "Meja Makan Solid Sungkai Minimalis",
+    "slug": "meja-makan-solid-sungkai",
+    "category": "furniture",
+    "is_featured": true,
+    "price_type": "starting_at",
+    "price_display": "Mulai dari Rp 4.200.000",
+    "price_raw": 4200000,
+    "short_description": "Meja makan 6 dudukan dengan warna kayu cerah alami ala Japandi.",
+    "full_description": "Meja makan kayu sungkai solid dengan karakteristik serat lurus elegan. Konstruksi kokoh dengan sambungan dowel kayu tersembunyi.",
+    "specifications": {
+      "wood_type": "Kayu Sungkai Solid Pilihan",
+      "dimensions": "P 160 cm x L 80 cm x T 75 cm",
+      "finishing": "Natural Clear Matte Polyurethane",
+      "joinery_technique": "Dowel Joint & Reinforcement Corner Bracket",
+      "care_instruction": "Gunakan tatakan piring panas. Bersihkan cairan sesegera mungkin."
+    },
+    "images": [
+      {
+        "url": "/images/products/meja-makan-sungkai-01.jpg",
+        "alt": "Meja makan sungkai minimalis 6 dudukan"
+      }
+    ]
+  },
+  {
+    "id": "prod-003",
+    "sku": "WWD-DCR-01",
+    "name": "Floating Shelf Jati Natural Bevel",
+    "slug": "floating-shelf-jati-natural-bevel",
+    "category": "home-decor",
+    "is_featured": true,
+    "price_type": "starting_at",
+    "price_display": "Mulai dari Rp 680.000",
+    "price_raw": 680000,
+    "short_description": "Rak dinding ambalan kayu jati solid dengan profil tepi miring (bevel edge) dan braket besi tanam tersembunyi.",
+    "full_description": "Ambalan melayang dibuat dari bilah papan jati utuh kiln-dry. Sistem pemasangan invisible bracket baja tahan karat memberikan ilusi melayang sempurna di dinding.",
+    "specifications": {
+      "wood_type": "Kayu Jati Jawa Solid",
+      "dimensions": "P 90 cm x L 18 cm x Tebal 3.5 cm",
+      "finishing": "Organic Hardwax Oil (Matte)",
+      "joinery_technique": "Solid Slab Single Cut dengan Internal Core Bracket",
+      "care_instruction": "Gunakan kain lembut kering untuk debu harian."
+    },
+    "images": [
+      {
+        "url": "/images/products/shelf-jati-01.jpg",
+        "alt": "Rak dinding melayang jati natural bevel woodwoodan"
+      }
+    ]
+  },
+  {
+    "id": "prod-004",
+    "sku": "WWD-DCR-02",
+    "name": "Cermin Dinding Bingkai Jati Lekuk Asimetris",
+    "slug": "cermin-dinding-bingkai-jati-asimetris",
+    "category": "home-decor",
+    "is_featured": false,
+    "price_type": "starting_at",
+    "price_display": "Mulai dari Rp 1.150.000",
+    "price_raw": 1150000,
+    "short_description": "Cermin dekoratif ruang tamu dengan frame lekuk organik khas pahatan tangan pengrajin.",
+    "full_description": "Setiap bingkai memiliki siluet asimetris yang unik dan tidak kembar, dipahat dengan tangan secara cermat dari balok kayu jati utuh bertekstur hangat.",
+    "specifications": {
+      "wood_type": "Kayu Jati Solid",
+      "dimensions": "P 85 cm x L 55 cm x Tebal 4 cm",
+      "finishing": "Natural Teak Oil Satin",
+      "joinery_technique": "Lap Joint Halving dengan Pin Pasak Kayu",
+      "care_instruction": "Bersihkan cermin dengan pembersih kaca; usapkan kain lembab hanya pada frame kayu."
+    },
+    "images": [
+      {
+        "url": "/images/products/cermin-asimetris-01.jpg",
+        "alt": "Cermin dinding lekuk asimetris kayu jati solid"
+      }
+    ]
+  },
+  {
+    "id": "prod-005",
+    "sku": "WWD-TBLW-01",
+    "name": "Papan Saji Charcuterie Jati Live Edge",
+    "slug": "papan-saji-charcuterie-jati",
+    "category": "tableware",
+    "is_featured": true,
+    "price_type": "starting_at",
+    "price_display": "Mulai dari Rp 285.000",
+    "price_raw": 285000,
+    "short_description": "Serving board food-safe dengan lekuk tepi alami dan lubang gantungan tali kulit sapi asli.",
+    "full_description": "Dipoles halus dengan food-grade beeswax dan mineral oil murni. Sangat cocok untuk penyajian roti, keju, kopi, maupun hidangan tapas di cafe atau dapur estetis.",
+    "specifications": {
+      "wood_type": "Kayu Jati Perhutani Pilihan",
+      "dimensions": "P 42 cm x L 22 cm x Tebal 2.2 cm",
+      "finishing": "100% Food-Grade Beeswax & Pure Mineral Oil",
+      "joinery_technique": "One-Piece Solid Plank (Tanpa Lem Sambungan)",
+      "care_instruction": "Cuci manual dengan sabun lembut, jangan rendam, oleskan minyak kelapa berkala."
+    },
+    "images": [
+      {
+        "url": "/images/products/papan-saji-01.jpg",
+        "alt": "Papan saji charcuterie jati live edge food-grade"
+      }
+    ]
+  },
+  {
+    "id": "prod-006",
+    "sku": "WWD-TBLW-02",
+    "name": "Set Mangkok & Sendok Saji Mahoni Kriya",
+    "slug": "set-mangkok-sendok-mahoni",
+    "category": "tableware",
+    "is_featured": false,
+    "price_type": "starting_at",
+    "price_display": "Mulai dari Rp 195.000",
+    "price_raw": 195000,
+    "short_description": "Set perlengkapan saji bubur atau salad bertekstur halus dari kayu mahoni berurat merah tembaga.",
+    "full_description": "Koleksi tableware dengan bentuk ergonomis yang nyaman digenggam. Dibuat menggunakan teknik bubut manual oleh artisan lokal dengan lapisan minyak kelapa organik.",
+    "specifications": {
+      "wood_type": "Kayu Mahoni Solid",
+      "dimensions": "Diameter Mangkok 16 cm x Tinggi 7 cm",
+      "finishing": "Food-Grade Walnut Oil & Virgin Coconut Oil",
+      "joinery_technique": "Hand-Turned Lathe Woodwork",
+      "care_instruction": "Hindari mesin dishwasher atau microwave. Keringkan segera setelah dicuci."
+    },
+    "images": [
+      {
+        "url": "/images/products/mangkok-mahoni-01.jpg",
+        "alt": "Set mangkok dan sendok kayu mahoni kriya woodwoodan"
+      }
+    ]
+  }
+]

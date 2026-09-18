@@ -1,0 +1,24 @@
+{
+  "brand_name": "woodwoodan",
+  "tagline": "Kriya Kayu Solid & Furnitur Kustom Bernilai Seni",
+  "subtagline": "Menghadirkan kehangatan serat alami kayu pilihan dengan presisi sambungan kriya tangan dan fleksibilitas kustomisasi untuk hunian serta ruang komersial Anda.",
+  "whatsapp": {
+    "phone_number": "6285798267605",
+    "display_number": "+62 857-9826-7605",
+    "operating_hours": "Senin - Sabtu, 09.00 - 17.00 WIB",
+    "default_greeting": "Halo woodwoodan, saya tertarik untuk konsultasi produk kayu kustom."
+  },
+  "workshop": {
+    "address_line": "Jalan Sukajadi, Gg. Pamurdasan Kel No.75A",
+    "city": "Cipedes, Kec. Sukajadi, Kota Bandung, Jawa Barat 40162",
+    "full_address": "Jalan Sukajadi, Gg. Pamurdasan Kel No.75A, Cipedes, Kec. Sukajadi, Kota Bandung, Jawa Barat 40162",
+    "gmaps_url": "https://maps.app.goo.gl/SMxCbX6YLMKZ2Bjv7"
+  },
+  "social_media": {
+    "instagram": "https://instagram.com/woodwoodan.id",
+    "tiktok": "https://tiktok.com/@woodwoodan.id"
+  },
+  "analytics": {
+    "ga4_measurement_id": "G-XXXXXXXXXX"
+  }
+}

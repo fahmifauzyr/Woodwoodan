@@ -1,0 +1,122 @@
+:root {
+  /* Colors — PRD 6.2 & design.md Curated Palette */
+  --color-charcoal: #231F1D;
+  --color-timber-dark: #181514;
+  --color-woodsmoke: #786F68;
+  --color-ash: #9E968F;
+  --color-sand-mist: #E6E1DA;
+  --color-parchment: #F9F7F2;
+  --color-card: #FFFFFF;
+  --color-teak-ochre: #A67344;
+  --color-amber-glow: #CFA36B;
+  --color-ochre-wash: #F4ECE1;
+  --color-amber-wash: #FBF5EB;
+  --color-sage: #4E7A51;
+  --color-sage-wash: #EBF3ED;
+  --color-terracotta: #C25E43;
+
+  /* Aliases for Design System Compatibility */
+  --color-ink: var(--color-charcoal);
+  --color-carbon: var(--color-timber-dark);
+  --color-midnight: var(--color-timber-dark);
+  --color-smoke: var(--color-woodsmoke);
+  --color-fog: var(--color-ash);
+  --color-mist: var(--color-sand-mist);
+  --color-paper: var(--color-card);
+  --color-snow: var(--color-parchment);
+  --color-electric-blue: var(--color-teak-ochre);
+  --color-iris: var(--color-amber-glow);
+  --color-leaf: var(--color-sage);
+  --color-ice: var(--color-ochre-wash);
+  --color-lavender: var(--color-amber-wash);
+
+  /* Typography — Font Families */
+  --font-display: 'Playfair Display', 'Cinzel', serif, Georgia;
+  --font-sans: 'Plus Jakarta Sans', 'Open Runde', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-signature: 'Caveat', 'Dancing Script', cursive;
+
+  /* Typography — Scale */
+  --text-eyebrow: 11px;
+  --leading-eyebrow: 1.62;
+  --tracking-eyebrow: 0.04em;
+  
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.45;
+  --tracking-body-sm: -0.01em;
+
+  --text-body: 16px;
+  --leading-body: 1.55;
+  --tracking-body: -0.015em;
+
+  --text-body-lg: 18px;
+  --leading-body-lg: 1.5;
+
+  --text-subheading: 22px;
+  --leading-subheading: 1.35;
+  --tracking-subheading: -0.02em;
+
+  --text-heading-sm: 28px;
+  --leading-heading-sm: 1.25;
+  --tracking-heading-sm: -0.025em;
+
+  --text-heading: 36px;
+  --leading-heading: 1.2;
+  --tracking-heading: -0.03em;
+
+  --text-heading-lg: 46px;
+  --leading-heading-lg: 1.15;
+  --tracking-heading-lg: -0.03em;
+
+  --text-display: 56px;
+  --leading-display: 1.1;
+  --tracking-display: -0.03em;
+
+  /* Typography — Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-36: 36px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap: 88px;
+  --card-padding: 24px;
+  --element-gap: 12px;
+
+  /* Border Radius */
+  --radius-tags: 100px;
+  --radius-cards: 16px;
+  --radius-icons: 888px;
+  --radius-images: 16px;
+  --radius-buttons: 100px;
+  --radius-largecards: 28px;
+  --radius-full: 9999px;
+
+  /* Elevation & Shadows */
+  --shadow-subtle: 0px 1px 2px rgba(35, 31, 29, 0.05);
+  --shadow-card: 0 4px 16px -2px rgba(35, 31, 29, 0.06), 0 2px 6px -1px rgba(35, 31, 29, 0.04);
+  --shadow-elevated: 0 12px 32px -4px rgba(35, 31, 29, 0.1), 0 4px 12px -2px rgba(35, 31, 29, 0.05);
+  --shadow-button: 0 1px 2px rgba(0, 0, 0, 0.2);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 350ms cubic-bezier(0.16, 1, 0.3, 1);
+}

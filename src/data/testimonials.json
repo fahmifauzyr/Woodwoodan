@@ -1,0 +1,32 @@
+[
+  {
+    "id": "testi-001",
+    "client_name": "Arif Dananjaya",
+    "role_or_project": "Pemilik Kafe Sinar Pagi, Bandung",
+    "client_type": "B2B",
+    "project_ordered": "Custom Bar Table & Counter Top",
+    "quote": "Kualitas sambungan kayu dan finishing meja barnya luar biasa rapi. Sudah 6 bulan kena tumpahan es kopi dan dilap bolak-balik setiap hari, lapisannya tetap mulus tidak menggelembung.",
+    "rating": 5,
+    "client_avatar": "/images/testimonials/arif-sinar-pagi.webp"
+  },
+  {
+    "id": "testi-002",
+    "client_name": "Dian Sastrowardoyo",
+    "role_or_project": "Homeowner, Jakarta Selatan",
+    "client_type": "B2C",
+    "project_ordered": "Meja Kopi Jati Lekuk Natural",
+    "quote": "Suka sekali dengan tekstur alami kayunya yang dipertahankan. Konsultasi via WhatsApp sangat responsif dan ramah membantu memilihkan kayu yang uratnya sesuai selera saya.",
+    "rating": 5,
+    "client_avatar": "/images/testimonials/dian-jaksel.webp"
+  },
+  {
+    "id": "testi-003",
+    "client_name": "Hendra Prasetya",
+    "role_or_project": "Lead Designer, Studio Ruang Estetis, Surabaya",
+    "client_type": "B2B",
+    "project_ordered": "Fit-Out Meja Kerja & Credenza",
+    "quote": "Presisi dimensi dan sambungan taji kayu solid dari pengrajin woodwoodan sangat rapi. Klien kami sangat puas dengan finishing matte yang memancarkan serat kayu asli tanpa kesan mengkilap sintetis.",
+    "rating": 5,
+    "client_avatar": "/images/testimonials/hendra-surabaya.webp"
+  }
+]

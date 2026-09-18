@@ -1,0 +1,54 @@
+[
+  {
+    "id": "port-001",
+    "title": "Fit-Out Meja Bar & Partisi Kafe Sinar Pagi",
+    "category": "commercial",
+    "location": "Dago, Bandung",
+    "year": 2026,
+    "wood_type": "Kayu Jati Solid & Rangka Besi Industrial",
+    "description": "Pengerjaan 1 unit meja kasir/bar sepanjang 4 meter dengan live edge treatment serta 8 set bangku bar bulat tahan gores untuk area semi-outdoor.",
+    "thumbnail": "/images/portfolio/sinar-pagi-bar-thumb.jpg",
+    "gallery": [
+      "/images/portfolio/sinar-pagi-bar-thumb.jpg"
+    ]
+  },
+  {
+    "id": "port-002",
+    "title": "Set Meja Kerja & Credenza Minimalis Residensial",
+    "category": "residential",
+    "location": "BSD City, Tangerang",
+    "year": 2026,
+    "wood_type": "Kayu Sungkai Solid Natural",
+    "description": "Pesanan kustom meja kerja dengan slot cable management tersembunyi dan kabinet arsip dengan pegangan pintu kayu utuh tanpa logam.",
+    "thumbnail": "/images/portfolio/home-office-bsd-thumb.jpg",
+    "gallery": [
+      "/images/portfolio/home-office-bsd-thumb.jpg"
+    ]
+  },
+  {
+    "id": "port-003",
+    "title": "Meja Rapat Kolaboratif Live Edge Perhutani 3.2m",
+    "category": "commercial",
+    "location": "Menteng, Jakarta Pusat",
+    "year": 2026,
+    "wood_type": "Kayu Jati Perhutani Grade A",
+    "description": "Meja rapat slab kayu jati utuh berbobot 180 kg dengan sambungan dasi kupu-kupu (butterfly joint) kuningan dan kabel power pop-up terintegrasi.",
+    "thumbnail": "/images/portfolio/menteng-boardroom-thumb.jpg",
+    "gallery": [
+      "/images/portfolio/menteng-boardroom-thumb.jpg"
+    ]
+  },
+  {
+    "id": "port-004",
+    "title": "Set Meja Makan & Bangku Panjang Japandi",
+    "category": "residential",
+    "location": "Sleman, Yogyakarta",
+    "year": 2026,
+    "wood_type": "Kayu Jati Reklamasi Pilihan",
+    "description": "Set furnitur ruang makan minimalis dengan sambungan kaki pasak tembus tradisional yang kokoh dan berkesan hangat bagi ruang keluarga.",
+    "thumbnail": "/images/portfolio/sleman-dining-thumb.jpg",
+    "gallery": [
+      "/images/portfolio/sleman-dining-thumb.jpg"
+    ]
+  }
+]
